@@ -12,7 +12,7 @@ Outputs are restricted to a base 64 charset by indexing position values into the
 
 ## How it Performs
 
-[10,000 32-byte outputs](../testOutputs.txt) from this system were benchmarked for randomness using the [ENT test suite](http://www.fourmilab.ch/random/). Results obtained (and their interpretation) are as follows:
+[10,000 32-byte outputs](/testOutputs.txt) from this system were benchmarked for randomness using the [ENT test suite](http://www.fourmilab.ch/random/). Results obtained (and their interpretation) are as follows:
 
 #### Entropy = 5.953667 bits per byte. 
 This result isn't surprising, since base64 requires only 6 bits to encode. Therefore, its quite a good outcome.

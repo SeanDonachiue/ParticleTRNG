@@ -32,4 +32,4 @@ This test plots bytes of output in a unit square, which circumscribes a unit cir
 #### Serial correlation coefficient is 0.006127 (totally uncorrelated = 0.0). 
 This test measures the correlation between adjacent bits. This is a fairly good value, however, it is still not within the range of -0.002 - 0.002 (calculated using equations from Knuth, which you can find in my [paper](../Pseudorandom Numbers Generated via Simple Particle Simulation Evaluated for use in Cryptographic Applications.docx) on the initial (quite flawed) implementation of this system, which would indicate with 95% confidence that there is no correlation between adjacent values.
 
-Contained also in the paper is a cryptanalyis of this system for susceptibility to input and state compromise extension attacks, as well as general discussion of PRNGs in use and their properties.
+Contained also in the paper is a cryptanalysis of this system for susceptibility to input and state compromise extension attacks, as well as general discussion of PRNGs in use and their properties.
